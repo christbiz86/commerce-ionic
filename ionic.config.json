@@ -1,0 +1,21 @@
+{
+  "name": "VirtoShop",
+  "integrations": {},
+  "type": "angular",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "proxies": [
+    {
+      "path": "/Clothing/storefrontapi",
+      "proxyUrl": "http://demo.virtocommerce.com/Clothing/storefrontapi",
+      "_proxyUrl": "http://localhost/storefront/Clothing/storefrontapi"
+    }
+  ],
+  "id": "94ad9c57"
+}
